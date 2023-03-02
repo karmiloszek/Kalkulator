@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator", "Kalkulator2\Kalkulator.csproj", "{7C12DFFD-7CCC-4501-BDDE-1AF0F8CFF338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteka", "Biblioteka\Biblioteka.csproj", "{EA089223-D511-4FC7-AC65-37194904252E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testy", "Testy\Testy.csproj", "{778E20D2-4062-4673-88A0-422A9C95A06C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C12DFFD-7CCC-4501-BDDE-1AF0F8CFF338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C12DFFD-7CCC-4501-BDDE-1AF0F8CFF338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C12DFFD-7CCC-4501-BDDE-1AF0F8CFF338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C12DFFD-7CCC-4501-BDDE-1AF0F8CFF338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA089223-D511-4FC7-AC65-37194904252E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA089223-D511-4FC7-AC65-37194904252E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA089223-D511-4FC7-AC65-37194904252E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA089223-D511-4FC7-AC65-37194904252E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778E20D2-4062-4673-88A0-422A9C95A06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778E20D2-4062-4673-88A0-422A9C95A06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778E20D2-4062-4673-88A0-422A9C95A06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778E20D2-4062-4673-88A0-422A9C95A06C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3188798-5A20-429A-9A25-6D06B4E4A87E}
+	EndGlobalSection
+EndGlobal
