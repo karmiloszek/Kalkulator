@@ -1,4 +1,7 @@
-﻿double PobierzLiczbe()
+﻿
+using Biblioteka;
+
+double PobierzLiczbe()
 {
     if (!double.TryParse(Console.ReadLine(), out double input))
         throw new Exception("Podana wartość nie jest liczbą!\n");
@@ -68,7 +71,7 @@ for (; ; )
             }
             else if (opcja == 'B')
             {
-
+                
             }
         }
         catch (Exception ex)
