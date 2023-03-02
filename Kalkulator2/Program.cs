@@ -35,7 +35,7 @@ for (; ; )
 {
     try
     {
-        Console.WriteLine("Wybierz opcję:\nA - kalkulator\nB-równanie kwadratowe");
+        Console.WriteLine("Wybierz opcję:\nA - kalkulator\nB - równanie kwadratowe");
 
         char opcja;
         try
