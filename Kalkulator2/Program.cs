@@ -71,7 +71,32 @@ for (; ; )
             }
             else if (opcja == 'B')
             {
-                
+                Console.WriteLine("Podaj a:");
+                double a = PobierzLiczbe();
+
+                Console.WriteLine("Podaj b:");
+                double b = PobierzLiczbe();
+
+                Console.WriteLine("Podaj c:");
+                double c = PobierzLiczbe();
+
+                RownanieKwadratowe kw = new RownanieKwadratowe(a, b, c);
+
+                double[] rozw = kw.Wynik();
+
+                switch (rozw.Length)
+                {
+                    case 2:
+                        Console.WriteLine("x1 = " + rozw[0]);
+                        Console.WriteLine("x2 = " + rozw[1]);
+                        break;
+                    case 1:
+                        Console.WriteLine("x = " + rozw[0]);
+                        break;
+                    default:
+                        Console.WriteLine("Brak rozwiązań");
+                        break;
+                }
             }
         }
         catch (Exception ex)
